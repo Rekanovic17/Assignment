@@ -1,0 +1,25 @@
+[href*="google"]{
+    color: green;
+}
+[href*="link"]{
+    color: red;
+}
+#second-div p:nth-child(odd){ 
+  color: blue;
+}
+#second-div> p:nth-child(even){ 
+    color: red;
+  }
+ 
+#first-div> p::after{
+    content: "New";
+    color: yellow;
+  }
+#first-div> p::after(3){
+    content: "New";
+    color: yellow;
+  }
+body> :nth-child(8):hover{
+    font-style: italic;
+}  
+
